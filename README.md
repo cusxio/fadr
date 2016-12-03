@@ -1,6 +1,6 @@
 # fadr
 
-A micro library without dependencies to fade things in and out.
+A dependency-free micro library to fade things in and out.
 
 CSS does not support animation or transition on display `none`, use this instead.
 
@@ -50,27 +50,32 @@ Type: `String`
 - fade out - `out`
 
 #### element
-Type: `Node`
 
 DOM node to fade in or fade out.
+
+Type: `Node`
 
 #### options
 Type: `Object`
 
 ##### duration
 Type: `number`
+
 Default: `400`
 
 ##### easing
 Type: `function`
+
 Default : `easeOutQuad`
 
 ##### display
 Type: `string`
+
 Default: fade in - `block`, fade out - `none`
 
 ##### complete
 Type: `function`
+
 Default: `undefined`
 
 ## Browser Support
