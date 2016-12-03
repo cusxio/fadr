@@ -1,7 +1,7 @@
 {
   "name": "fadr",
   "version": "1.0.0",
-  "description": "A micro library without dependencies to fade things in and out.",
+  "description": "A dependency-free micro library to fade things in and out.",
   "license": "MIT",
   "repository": "cusxio/fadr",
   "author": {
